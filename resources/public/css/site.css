@@ -1,0 +1,44 @@
+.static-menu .dropdown-menu{
+    display: block;
+    position: relative;
+}
+
+.static-modal .modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    z-index: 1;
+    display: block;
+}
+
+.tooltip-static .tooltip {
+    position: relative;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+.static-popover {
+    height: 200px;
+}
+
+.static-popover .popover {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.show-grid {
+    margin-bottom: 15px;
+}
+
+.show-grid div {
+    border: 1px solid #df691a;
+    padding: 8px;
+}
+
+.page-header-contained {
+    border: 1px solid #df691a;
+    padding: 15px 30px;
+}
