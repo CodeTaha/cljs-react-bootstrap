@@ -23,7 +23,8 @@
 
   :clean-targets ^{:protect false} ["resources/public/js/compiled" "target"]
 
-  :figwheel {:css-dirs ["resources/public/css"]}
+  :figwheel {:css-dirs ["resources/public/css"]
+             :server-port 3450}
 
   :cljsbuild {:builds [{:id "dev"
                         :source-paths ["src/cljs"]
